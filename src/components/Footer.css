@@ -1,0 +1,45 @@
+div.Footer{
+    background-color: #0c021b;
+    margin-top: 20px;
+    display: inline-block;
+    width: 400px;
+    height: 5px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  } */
+  
+
+a.Instagram{
+    margin-left: 0px;
+    margin-right: 30px;
+    color: #261938;
+    padding-: 3px;
+}
+
+a.WhatsApp{
+    margin-left: 0px;
+    margin-right: 30px;
+    color: #261938;
+    padding: 3px;
+}
+
+a.GitHub{
+    margin-left: 0px;
+    margin-right: 30px;
+    color: #261938;
+    padding: 3px;
+}
+
+a.Facebook{
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #261938;
+    padding: 3px;
+}
