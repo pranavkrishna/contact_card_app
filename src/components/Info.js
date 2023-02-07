@@ -8,6 +8,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import About from "./About";
 
 export default function Info() {
+    function handleClick() {
+        window.open('https://www.linkedin.com/in/pranav-krishna-03062492/', '_blank');
+    }
     return (
         <div className="TopCard">
             <img src={MyPhoto} alt="MyPhoto" />
@@ -20,9 +23,7 @@ export default function Info() {
                 sx={{ textTransform: 'none' }}
                 variant="contained" startIcon={<MailOutlineIcon />}>Email</Button>
             <Button className="LinkedIn"
-                onClick={(email) => {
-                    window.open('https://www.linkedin.com/in/pranav-krishna-03062492/', '_blank');
-                }}
+                onClick={handleClick}
                 sx={{ textTransform: 'none' }}
                 variant="contained" startIcon={<LinkedInIcon />}>LinkedIn</Button>
             <About />
